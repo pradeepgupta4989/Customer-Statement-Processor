@@ -9,7 +9,7 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.rabo.statement</groupId>
+	<groupId>com.bank.statement</groupId>
 	<artifactId>customer-statement-processor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>statement-processor</name>
