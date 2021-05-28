@@ -30,7 +30,6 @@ public class StatementProcessServiceImpl implements StatementProcessorService{
 		boolean isReferenceNotUnique = Collections.frequency(inputTransactionList, transaction) > 1;
 		if(isReferenceNotUnique)
 			errorList.add(StatementsProcessorConstants.DUPLICATE_REFERENCE);
-		System.out.println("Reference Not unique "+errorList.size());
 		return isReferenceNotUnique;
 	}
 
@@ -38,7 +37,6 @@ public class StatementProcessServiceImpl implements StatementProcessorService{
 		boolean isEndBalanceNotCorrect = !record.getStartBalance().add(record.getMutation()).equals(record.getEndBalance());
 		if(isEndBalanceNotCorrect)
 			errorList.add(StatementsProcessorConstants.INCORRECT_END_BALANCE);
-		System.out.println("End balance not correct "+errorList.size());
 		return isEndBalanceNotCorrect;
 	}
 
