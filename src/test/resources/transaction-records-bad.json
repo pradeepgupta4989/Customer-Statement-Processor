@@ -1,0 +1,74 @@
+[
+  {
+    "reference": 123874,
+    "accountNumber": "NL91RABO0315273637",
+    "startBalance": 21.6,
+    "mutation": "abc",
+    "description": "Lunch for test user",
+    "endBalance": -20.23
+  },
+  {
+    "reference": 137283,
+    "accountNumber": "NL27SNSB0917829871",
+    "startBalance": 91.23,
+    "mutation": 15.57,
+    "description": "Grocery from test shop",
+    "endBalance": 106.80
+  },
+  {
+    "reference": 982367,
+    "accountNumber": "NL69ABNA0433647324",
+    "startBalance": 86.66,
+    "mutation": 44.5,
+    "description": "Outing with friends",
+    "endBalance": 131.16
+  },
+  {
+    "reference": 123782,
+    "accountNumber": "NL74ABNA0248990274",
+    "startBalance": 92.98,
+    "mutation": -46.65,
+    "description": "Subscription of netflix",
+    "endBalance": 46.33
+  },
+  {
+    "reference": 123923,
+    "accountNumber": "NL69ABNA0433647324",
+    "startBalance": 90.83,
+    "mutation": -10.91,
+    "description": "online shopping",
+    "endBalance": 79.92
+  },
+  {
+    "reference": 123912,
+    "accountNumber": "NL93ABNA0585619023",
+    "startBalance": 102.12,
+    "mutation": 45.87,
+    "description": "dinner",
+    "endBalance": 147.99
+  },
+  {
+    "reference": 291282,
+    "accountNumber": "NL43AEGO0773393871",
+    "startBalance": 99.44,
+    "mutation": 41.23,
+    "description": "flight tickets",
+    "endBalance": 140.67
+  },
+  {
+    "reference": 129345,
+    "accountNumber": "NL93ABNA0585619023",
+    "startBalance": 94.25,
+    "mutation": 41.6,
+    "description": "gift for test user",
+    "endBalance": 135.85
+  },
+  {
+    "reference": 129340,
+    "accountNumber": "NL74ABNA0248990274",
+    "startBalance": 26.32,
+    "mutation": 48.98,
+    "description": "Dinner with friends",
+    "endBalance": 75
+  }
+]
